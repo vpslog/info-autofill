@@ -172,8 +172,8 @@
             cityInput.value = user.location.city;
         }
 
-        const stateInput = form.querySelector('input[name="state"]');
-        if (stateInput && !stateInput.value) {
+        const stateInput = form.querySelector('select[name="state"]');
+        if (stateInput) {
             stateInput.value = user.location.state;
         }
 
